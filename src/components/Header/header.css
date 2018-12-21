@@ -1,0 +1,26 @@
+header {
+    width: 100vw;
+    height: 75px;
+    background: #519872;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    /* border: 1px solid red; */
+    height: 75px;
+    width: 45vw;
+    color:white;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.header-container > img {
+    margin-right: 10px;
+}

@@ -1,0 +1,37 @@
+.listing {
+    /* height: 150px; */
+    width: 100%;
+    background: #dedede;
+    margin: 20px 0;
+    position: relative;
+
+    display: flex;
+}
+
+.listing-box {
+    /* border: 1px solid red; */
+    width: 33%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-box > img {
+    height: 100%;
+    width: 100%;
+}
+
+.listing-box > p {
+    margin: 0 0 5px;
+}
+
+.listing-delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.listing-delete:hover {
+    cursor: pointer;
+}

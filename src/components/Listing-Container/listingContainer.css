@@ -1,0 +1,14 @@
+.listing-container {
+    border-top: 1px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.listing-container-header {
+    margin: 20px;
+}
+
+.listings {
+    display: flex;
+    flex-direction: column;
+}

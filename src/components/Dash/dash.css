@@ -1,0 +1,33 @@
+.dash {
+    width: 50vw;
+    background: #e5f4ec;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.dash-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dash-header-title {
+    color: #3b5249;
+    font-size: 40px;
+    margin: 20px;
+    font-weight: 400;
+}
+
+.new-prop-button {
+    background: #8aea92;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+
+.new-prop-button:hover {
+    cursor: pointer;
+    background: #98ffa1;
+}
